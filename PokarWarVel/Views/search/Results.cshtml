@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MarvelApi.Model.Characters>
+
+@{
+    ViewBag.Title = "Results";
+}
+
+<h2>Results</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+
+    @foreach (MarvelApi.Model.Characters item in Model)
+    {
+        Html.RenderPartial("~/Views/Shared/_Fiche.cshtml", item);
+
+    }
+  
+
+</table>

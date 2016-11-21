@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokarWarVel", "PokarWarVel\PokarWarVel.csproj", "{8D9EF780-81B8-445E-8D48-44BECF9384B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelApi", "\\data2\stagiaires\plantes\COMMUN\ASP\APIConsume-master\MarvelApi\MarvelApi.csproj", "{2B1F6491-8755-483C-AC13-F57F1F8343B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9EF780-81B8-445E-8D48-44BECF9384B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9EF780-81B8-445E-8D48-44BECF9384B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9EF780-81B8-445E-8D48-44BECF9384B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9EF780-81B8-445E-8D48-44BECF9384B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1F6491-8755-483C-AC13-F57F1F8343B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1F6491-8755-483C-AC13-F57F1F8343B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1F6491-8755-483C-AC13-F57F1F8343B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1F6491-8755-483C-AC13-F57F1F8343B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
